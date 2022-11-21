@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÜCRETSİZ ENVATO BOT</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Josefin Sans', sans-serif;
+            color: #fff;
+        }
+        html{
+            background-color: #000;
+          
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+      .q1{
+        font-size: 60px;
+      }
+    </style>
+</head>
+
+<body>
+<center>
+    <div class="share-d">
+
+        <div class="item-1 q1">
+            ÜCRETSİZ TELEGRAM ENVATO DOSYA İNDİRİCİ 
+            <br>
+            <br>
+            <a href="https://t.me/+id33dLA7M0o2MWRk" target="_blank">https://t.me/+id33dLA7M0o2MWRk</a>
+            <br>
+            <br>
+            ÜCRETSİZ TELEGRAM ENVATO DOSYA İNDİRİCİ 
+        </div>
+<br><br>
+        <div class="item-2 q1">
+            DOSYANIZ => <div class="render"></div>
+        </div>
+
+    </div>
+</center>
+
+
+<script>
+    var link =new URL(document.URL).searchParams.get("data");
+    console.log(link);
+    document.querySelector('.render').innerHTML =` <a href="${atob(link)}" target="_blank">${atob(link)}</a>`
+</script>
+
+</body>
+
+</html>
